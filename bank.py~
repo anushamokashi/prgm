@@ -1,0 +1,37 @@
+def func():
+	choice=user_choice()
+	name=user_name()
+	deposit=user_deposit(amount, balance)
+	withdraw=user_withdraw(amount,balance)
+	
+
+def user_choice():
+    u=raw_input("enter the choice 1/2/3\n")
+    if(u==1):
+        u="enter the name"
+        print u
+    elif(u==2):
+	u="user depositing amount"
+    elif(u==3):
+        u="withdraw amount"
+
+
+def user_name():
+    name=raw_input("enter the name here")
+
+
+def __init__(self):
+    self.balance=0
+
+
+def user_deposit(self,amount,balance):
+    self.balance +=amount
+    return self.balance
+
+def user_withdraw(self,amount,balance):
+    self.balance-=amount
+    return self.balance
+
+
+func()
+     
